@@ -8,4 +8,4 @@ const Arjay = () => {
     )  
 };
  
-export default Kurt;
+export default Arjay;
