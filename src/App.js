@@ -6,6 +6,7 @@ import Kurt from "./components/Kurt";
 import Arjay from "./components/Arjay";
 import Jan from "./components/Jan";
 import NoPage from "./components/NoPage";
+import Ellis from './components/Ellis';
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
               <Route path="/" element={<Navbar />}>
                 <Route index element={<Kurt />} />
                 <Route index element={<Arjay />}/>
-                <Route index element={<Arjay />}/>
+                <Route index element={<Ellis />}/>
                 <Route path="*" element={<NoPage />} />
               </Route>
             </Routes>
