@@ -1,9 +1,11 @@
+import './Kurtstyles.css'
+
 const Kurt = () => {
     return (
-         <div>
+         <div className="container">
              Kurt Ian R. Rumbaua SN: 2021106699
          </div>
     )  
- };
+};
  
- export default Kurt;
+export default Kurt;
