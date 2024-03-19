@@ -1,7 +1,7 @@
 const Kurt = () => {
     return (
          <div>
-             Von Derwin R. Caibigan #2021101848
+             Kurt Ian R. Rumbaua SN: 2021106699
          </div>
     )  
  };
