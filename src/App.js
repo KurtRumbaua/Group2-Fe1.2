@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Kurt from "./components/Kurt";
 import Arjay from "./components/Arjay";
+import Jan from "./components/Jan";
 import NoPage from "./components/NoPage";
 
 function App() {
