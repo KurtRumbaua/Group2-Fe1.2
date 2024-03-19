@@ -15,6 +15,7 @@ function App() {
               <Route path="/" element={<Navbar />}>
                 <Route index element={<Kurt />} />
                 <Route index element={<Arjay />}/>
+                <Route index element={<Arjay />}/>
                 <Route path="*" element={<NoPage />} />
               </Route>
             </Routes>
