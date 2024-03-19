@@ -1,4 +1,4 @@
-import './Clydestyles.css'
+import './styles.css'
 
 const Clyde = () => {
     return (

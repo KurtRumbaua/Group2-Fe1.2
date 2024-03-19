@@ -1,6 +1,6 @@
-import './Janstyles.css'
+import './styles.css'
 
-const Arjay = () => {
+const Jan = () => {
     return (
          <div className="container">
              Jan Kristoffer Alminiana SN: 2021103819

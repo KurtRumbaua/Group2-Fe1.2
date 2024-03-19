@@ -1,6 +1,6 @@
-import './Ellisstyles.css'
+import './styles.css'
 
-const Arjay = () => {
+const Ellis = () => {
     return (
          <div className="container">
              Gener Ellis M. David SN: 2021101243

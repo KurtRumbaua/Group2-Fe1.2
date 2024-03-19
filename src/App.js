@@ -8,6 +8,7 @@ import Jan from "./components/Jan";
 import Clyde from './components/Clyde';
 import NoPage from "./components/NoPage";
 import Ellis from './components/Ellis';
+import Von from './components/Von';
 
 function App() {
   return (
@@ -16,10 +17,11 @@ function App() {
             <Routes>
               <Route path="/" element={<Navbar />}>
                 <Route index element={<Kurt />} />
-                <Route index element={<Arjay />}/>
-                <Route index element={<Jan />}/>
-                <Route index element={<Ellis />}/>
-                <Route index element={<Clyde />}/>
+                <Route path="ellis" element={<Ellis/>} />
+                <Route path="clyde" element={<Clyde/>} />
+                <Route path="jan" element={<Jan/>} />
+                <Route path="arjay" element={<Arjay/>} />
+                <Route path="von" element={<Von/>} />
                 <Route path="*" element={<NoPage />} />
               </Route>
             </Routes>

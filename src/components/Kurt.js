@@ -1,4 +1,4 @@
-import './Kurtstyles.css'
+import './styles.css'
 
 const Kurt = () => {
     return (

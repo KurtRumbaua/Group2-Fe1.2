@@ -1,4 +1,4 @@
-import './Arjaystyles.css'
+import './styles.css'
 
 const Arjay = () => {
     return (
