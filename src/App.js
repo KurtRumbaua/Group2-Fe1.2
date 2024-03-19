@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Kurt from "./components/Kurt";
+import Arjay from "./components/Arjay";
 import NoPage from "./components/NoPage";
 
 function App() {
